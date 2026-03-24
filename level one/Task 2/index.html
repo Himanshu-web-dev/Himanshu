@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStream | Modern Landing Page</title>
+    <meta name="description" content="DevStream landing page template: responsive design, modern UI, and performance-focused structure for web projects.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container" aria-label="Primary">
+            <div class="nav-left">
+                <a class="logo" href="#home">DevStream</a>
+            </div>
+            <div class="nav-center">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#contact" class="cta">Request Demo</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <p class="eyebrow">Award-winning development experience</p>
+                <h1>Build Your Vision Faster with DevStream</h1>
+                <p>Deliver beautiful, responsive websites and apps with a lightweight front-end foundation designed for real production performance.</p>
+                <div class="hero-actions">
+                    <a href="#features" class="btn">Explore Features</a>
+                    <a href="#contact" class="btn secondary">Talk to Sales</a>
+                </div>
+                <p class="hero-subtext">Join 12,000+ companies using DevStream for faster launch cycles and high-quality UX.</p>
+            </div>
+        </section>
+
+        <section id="features" class="features container" aria-label="Platform features">
+            <article class="card" aria-label="Responsive">
+                <h3>Responsive Everywhere</h3>
+                <p>Automatic layouts adapt to phones, tablets, and desktops so your product looks flawless on every screen.</p>
+            </article>
+            <article class="card" aria-label="Clean code">
+                <h3>Clean, Semantic Code</h3>
+                <p>Modern HTML5 structure and simple CSS patterns make your project easy to maintain and extend.</p>
+            </article>
+            <article class="card" aria-label="Fast loading">
+                <h3>Performance-Optimized</h3>
+                <p>Lightweight assets and efficient rendering help pages load fast and keep users engaged.</p>
+            </article>
+        </section>
+
+        <section id="services" class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <div class="features" style="gap: 1rem; margin-top: 1rem;">
+                <article class="card">
+                    <h3>UI/UX Design</h3>
+                    <p>Ready-made responsive layouts with pixel-perfect typography and spacing.</p>
+                </article>
+                <article class="card">
+                    <h3>Performance Tuning</h3>
+                    <p>Fast interactions, optimized images, and smooth user experience on all devices.</p>
+                </article>
+                <article class="card">
+                    <h3>Continuous Support</h3>
+                    <p>Reliable updates, security improvement, and feature enhancements.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>Why DevStream?</h2>
+            <p>DevStream is crafted for teams who need high-quality deliveries with minimal overhead. Reduce development time while keeping the interface polished, accessible, and scalable.</p>
+        </section>
+
+        <section id="testimonials" class="container">
+            <h2>Trusted by Teams Worldwide</h2>
+            <div class="features" style="gap: 1rem; margin-top: 1rem;">
+                <article class="card">
+                    <p>“DevStream helped us launch in half the time. The code is clean, and our users see an immediate difference.”</p>
+                    <strong>— Ananya, Product Lead</strong>
+                </article>
+                <article class="card">
+                    <p>“The UI is sharp and consistent across devices. We’ve received great feedback from clients.”</p>
+                    <strong>— Rohit, CTO</strong>
+                </article>
+                <article class="card">
+                    <p>“Fast to implement, easy to maintain, and performance is on point.”</p>
+                    <strong>— Priya, Frontend Engineer</strong>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <div class="card form-card" style="text-align: left;">
+                <h3>Get started today</h3>
+                <p>Ready to deploy your next project with confidence? Contact us for a free consultation.</p>
+                <form action="#" method="post" class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="4" placeholder="Tell us about your project" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DevStream. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const header = document.querySelector('header');
+        const hero = document.querySelector('.hero');
+        const heroHeight = hero ? hero.offsetHeight : 350;
+
+        const onScroll = () => {
+            if (window.scrollY > heroHeight * 0.2) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        };
+
+        window.addEventListener('scroll', onScroll);
+        onScroll();
+    </script>
+</body>
+</html>
