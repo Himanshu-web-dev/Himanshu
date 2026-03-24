@@ -1,109 +1,99 @@
-# 🚀 Himanshu Pathak - Portfolio Website
+# 💻 CODSOFT Web Development Internship - Level 1
 
-✨ Welcome to my personal portfolio website!
-This project represents my skills, creativity, and passion for frontend development through a clean and modern user interface.
-
----
-
-## 📌 About The Project
-
-This is a **fully responsive portfolio website** designed using only **HTML5 and CSS3**.
-The main focus of this project is to create a visually appealing and user-friendly interface without using JavaScript.
-
-💡 It highlights my:
-
-* Technical skills
-* Personal projects
-* Contact details
+This repository contains all the tasks completed for **Level 1** of the Web Development Internship at **CODSOFT**.
 
 ---
 
-## 🎯 Key Features
+## 🚀 Tasks Completed
 
-✨ Modern & Minimal UI Design
-📱 Fully Responsive (Mobile + Tablet + Desktop)
-🎨 Clean and Attractive Styling using CSS
-📂 Project Showcase Section
-📞 Contact Section
-🧭 Smooth Navigation Experience
+### 🔹 Task 1: Personal Portfolio Website
 
----
+* Designed a personal portfolio using **HTML & CSS**
+* Sections included:
 
-## 🛠️ Tech Stack
-
-* 🌐 HTML5
-* 🎨 CSS3
-* 📐 Flexbox
-* 📊 CSS Grid
-* 📱 Media Queries
+  * Header (Name & Intro)
+  * About Me
+  * Skills
+  * Projects
+  * Resume
+  * Contact
+* Focus on clean UI and proper layout
 
 ---
 
-## 📁 Project Structure
+### 🔹 Task 2: Landing Page
+
+* Created a responsive landing page using **HTML & CSS**
+* Features:
+
+  * Attractive design
+  * Proper section alignment
+  * Header & Footer
+  * Clean layout and color scheme
+* Improved understanding of **CSS positioning & layouts**
+
+---
+
+### 🔹 Task 3: Calculator
+
+* Built a basic calculator using:
+
+  * HTML
+  * CSS
+  * JavaScript
+* Features:
+
+  * Addition, Subtraction, Multiplication, Division
+  * Interactive UI
+  * Button-based input system
+* Learned use of:
+
+  * Event Listeners
+  * Conditional Statements
+  * Basic Logic Handling
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## 📂 Project Structure
 
 ```
-📦 Portfolio Website
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┗ 📂 assets/
-     ┗ images, icons, etc.
+CODSOFT/
+│── Portfolio/
+│── Landing Page/
+│── Calculator/
+│── README.md
 ```
 
 ---
 
-## 💡 Website Sections
+## 🎯 Internship Details
 
-* 🏠 Home
-* 💼 Projects
-* 🧠 Technical Skills
-* 📞 Contact
+As per the internship guidelines, completing any one level is required.
+This repository includes all **Level 1 tasks** as mentioned in the internship document. 
 
 ---
 
-## 📸 Preview
-
-A clean and professional portfolio layout designed to impress recruiters and showcase frontend skills effectively.
-
----
-
-## 🚀 Getting Started
-
-Follow these simple steps to run the project locally:
-
-1️⃣ Download or clone this repository
-2️⃣ Open `index.html` in your browser
-3️⃣ Explore the portfolio 🎉
-
----
-
-## 📬 Contact Me
-
-📧 Email: **[hp1036630@gmail.com](mailto:hp1036630@gmail.com)**
-💼 LinkedIn: [Click Here](https://www.linkedin.com/feed/)
-
----
-
-## ⭐ Support
-
-If you like this project, please consider:
-
-⭐ Giving it a star on GitHub
-🔗 Sharing it with your friends
-
----
-
-## 🙌 Author
+## 📌 Author
 
 **Himanshu Pathak**
-🚀 Frontend Developer
 
 ---
 
-## ⚡ Future Improvements
+## ⭐ Note
 
-* Add JavaScript for interactivity
-* Include animations and transitions
-* Integrate backend for contact form
+This repository is created for learning and internship submission purposes.
+Feel free to explore and give feedback!
+
+---
+
 
 
 
